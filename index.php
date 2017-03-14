@@ -1,5 +1,5 @@
 <?php
-define("GOOGLE_API_KEY", "your api key");
+define("GOOGLE_API_KEY", "YOUR_API_ACCESS_KEY");
 define("GOOGLE_GCM_URL", "https://android.googleapis.com/gcm/send");
 
 function GcmNotify($reg_id, $message) {
@@ -31,8 +31,8 @@ function GcmNotify($reg_id, $message) {
 	echo $result;
  }
 	
-$reg_id = "registered device id(s)";
-$msg = "Google Cloud Messaging working well";
+$reg_id = "DEVICE_REGISTRATION_ID";
+$msg = "Google Cloud Messaging working well"; // can be anything :D
 
 GcmNotify($reg_id, $msg);
 ?>
