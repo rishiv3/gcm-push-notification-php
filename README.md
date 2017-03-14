@@ -1,6 +1,6 @@
 # Google Cloud Messaging
 
-Simple PHP script showing how to send an Android push notification. Be sure to replace the API_ACCESS_KEY with a proper one from the Google API's Console page. To use the script, just call scriptName.php?id=THE_DEVICE_REGISTRATION_ID
+Simple PHP script showing how to send an Android push notification. Be sure to replace the API_ACCESS_KEY with a proper one from the Google API's Console page.
 
 Google Cloud Messaging (GCM) is a service that lets developers send data from
 servers to users' devices, and receive messages from devices on the same
